@@ -1,36 +1,6 @@
-# README
+This is an application that was made to look at the relationshipps on tables between Doctors, Patients, and their appointments and the Specialties of the Doctors involved.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Collaborators were
+Stanislas Basquin, Daniel Stavroff, and first time collaboration with, Mathieu Joly, and Hugo Péran Séjourné.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# My_Doctolib
-
-
-
-@HugoPeranSejourne
-Hugo Péran Séjourné
-
-@Inigo-santiu
-Inigo-santiu
-
-@mathieu-superpose
-Mathieu
+This is a decent application.
