@@ -20,7 +20,7 @@ Speciality.destroy_all
 end
 
 
-spec = ["Orthophonist", "Generalist", "Dentist", "Ophtalmologist", "Stomatologist", "Gynecologist"]
+spec = ["Pediatrist", "Generalist", "Dentist", "Ophtalmologist", "Stomatologist", "Gynecologist"]
   i = 0
   spec.length.times do
   speciality_list = Speciality.create!(name: spec[i])
@@ -39,7 +39,9 @@ end
 
 
 20.times do
-  JoinTableDoctorSpeciality.create(doctor: Doctor.find(rand(Doctor.first.id..Doctor.last.id)), speciality: Speciality.find(rand(Speciality.first.id..Speciality.last.id)))
+  JoinTableDoctorSpeciality.create(
+  doctor: Doctor.find(rand(Doctor.first.id..Doctor.last.id)), 
+  speciality: Speciality.find(rand(Speciality.first.id..Speciality.last.id)))
 end
 
 50.times do
